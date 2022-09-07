@@ -4,15 +4,17 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Gerador de senhas em html com javaScript">
+        <title>Gerador de Senhas</title>
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <main>
             <section id="section-logo">
-                <img class="logo" src="./assets/logo.png" alt="Logo gerador de senha">
+                <img class="logo" src="./assets/logo.png" max-width="600px" 
+                max-height="80px" alt="Logo gerador de senha">
             </section>
             <section class="container-input">
-                 <p>Tamanho <span id="valor"></span> caracteres.</p>
+                 <label for="idslider">Tamanho <span id="valor"></span> caracteres.</label>
                  <input id="idslider" class="slider" type="range" min="5" max="25" value="15"/>
                  <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
             </section>

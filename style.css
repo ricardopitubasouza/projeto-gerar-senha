@@ -35,7 +35,7 @@ main {
     margin: 14px 0px;
 }
 
-.container-input p {
+.container-input label {
     color: #fff;
     font-size: 22px;
 }
@@ -52,14 +52,15 @@ main {
 
 .button-cta {
     height: 40px;
-    background-color: #3EB72B;
-    border: 0;
+    background-color: #136905;
+    border: 2px solid #fff;
     border-radius: 4px;
     cursor: pointer;
     margin-top: 40px;
     color: #fff;
     font-weight: bold;
     font-size: 18px;
+    text-shadow: 2px 2px 5px#181818;
 }
 
 .container-password {
