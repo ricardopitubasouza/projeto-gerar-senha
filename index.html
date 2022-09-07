@@ -1,4 +1,4 @@
-b<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
@@ -8,18 +8,18 @@ b<!DOCTYPE html>
     </head>
     <body>
         <main>
-            <section>
+            <section id="section-logo">
                 <img class="logo" src="./assets/logo.png" alt="Logo gerador de senha">
             </section>
             <section class="container-input">
                  <p>Tamanho<span id="valor"></span> caracteres.</p>
                  <input id="slider" class="slider" type="range" min="5" max="25" value="15"/>
-                 <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>"
+                 <button id="button" class="button-cta" onclick="generatePassword()">Gerar senha</button>
             </section>
             <section id="container-password" class="container-password hide">
                  <p class="title">Sua senha gerada foi:</p>
                  <span id="idpassword" class="password"></span>
-                 <p class="tooltip">Clique na senha para copiar. </p>
+                 <p class="tooltip">Clique na senha para copiar. 👆</p>
             </section>
         </main>
         <script src="script.js"></script>
